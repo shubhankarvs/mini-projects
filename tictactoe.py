@@ -30,7 +30,7 @@ def playgame():
 
 def take_user_input(current_player):
     print(current_player+"'s turn.")
-    position=input("Enter the position from 1 to 9")
+    position=input("Enter the position from 1 to 9: ")
     valid= False
     while not valid:
         while position not in["1","2","3","4","5","6","7","8","9"]:

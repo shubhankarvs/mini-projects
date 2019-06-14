@@ -68,7 +68,7 @@ def check_win():
     elif diagonal_winner:
         winner=diagonal_winner
     else:
-         winner=None
+         winner = None
 
 def check_row():
     global game_still_going
